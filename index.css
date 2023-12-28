@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+   
+    background-image: url(Bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+  
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 8px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+h1:hover{
+    color: crimson;
+}
+p:hover{
+    color: deeppink;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    font-family: serif;
+    padding-left: 7px;
+    text-shadow: 2px 2px 5px rgb(255, 184, 184);
+}
+.logo:hover{
+    color:coral;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    margin: 0 20px ;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(137, 206, 247);
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    /* background: #01003f; */
+    display: flex;
+    align-items: center;
+    padding: 50px 8% 0;
+    padding-left: 200px;
+    
+}
+
+.home-content{
+    max-width: 630px;
+}
+
+.home-content h1{
+    font-size: 41px;
+}
+
+.home-content p{
+    font-size: 15px;
+    margin: 25px 0 30px;
+}
+
+.btn-box{
+    width: 100px;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 6px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    padding-left: 15px;
+    color: #fff;
+   
+}
+.btn-box:hover{
+    background-color: rgb(255, 160, 160);
+}
+    
+.btn-box1{
+    width: 100px;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 6px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 100px;
+}
+.btn-box1:hover{
+    background-color: rgb(233, 169, 169);
+}
+.btn{
+    padding: 10px 28px;
+    background: rgb(136, 87, 248);
+    border: 2px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight:300;
+    color: #fff;
+    transition-duration: 0.4s;
+}
+.btn:hover{
+    background-color: black;
+}
